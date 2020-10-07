@@ -6,11 +6,14 @@ import Slide3 from '../../assets/img/carousal/slide3.webp';
 import ScrollDown from '../scroll-down/scroll-down.component';
 
 
+
 import './carousel.style.css';
 
 const MyCarousel = () => {
     return (
+      
         <div id="home">
+        
             <Carousel controls={false} interval={2500} pause={false}>
   <Carousel.Item>
     <img
@@ -41,6 +44,7 @@ const MyCarousel = () => {
 </Carousel>
   <ScrollDown />
         </div>
+      
     )
 }
 
