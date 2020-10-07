@@ -1,5 +1,6 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade'
+import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 import { Parallax } from "react-parallax";
 import './App.css';
 
@@ -10,6 +11,7 @@ import TitleMessage from "./components/title-message/title-message.component";
 import About from "./pages/About/about.component";
 import Container from 'react-bootstrap/Container';
 import Skills from "./pages/skills/skills.component";
+import Experience from "./pages/experience/experience.component";
 
 
 
@@ -37,8 +39,18 @@ const App = () => {
 
      <div>
         <Container className="rounded d-flex justify-content-center"> 
-        <Fade duration={1500}>
+        <Slide duration={500}>
     <Skills />
+    </Slide>
+    </Container>
+    </div>
+
+  {/* experience */}
+         <div>
+         <hr/>
+        <Container className="rounded d-flex justify-content-center"> 
+        <Fade duration={1500}>
+    <Experience />
     </Fade>
     </Container>
     </div>
