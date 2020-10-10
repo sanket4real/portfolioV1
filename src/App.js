@@ -12,6 +12,8 @@ import About from "./pages/About/about.component";
 import Container from 'react-bootstrap/Container';
 import Skills from "./pages/skills/skills.component";
 import Experience from "./pages/experience/experience.component";
+import ContactForm from "./pages/contact-form/contact-form.component";
+import Footer from './components/footer/footer.component';
 
 
 
@@ -53,6 +55,19 @@ const App = () => {
     <Experience />
     </Fade>
     </Container>
+    </div>
+
+    <div>
+       <hr/>
+      <Container> 
+        <Fade duration={1500}>
+    <ContactForm />
+    </Fade>
+    </Container>
+    </div>
+
+    <div>
+      <Footer/>
     </div>
 
     

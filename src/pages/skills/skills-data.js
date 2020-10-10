@@ -8,6 +8,7 @@ import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
+import L_JQUERY from "../../assets/img/skills/jquery-ar21.svg"
 
 
 export const skills = {
@@ -61,33 +62,6 @@ export const skills = {
       skillName: "Material-UI",
     },
   ],
-
-//   backend: [
-//     {
-//       link: "https://nodejs.org/en/",
-//       imgAltText: "Node.js",
-//       imgSrc: L_NODE_JS,
-//       skillName: "Node.js",
-//     },
-//     {
-//       link: "https://expressjs.com/",
-//       imgAltText: "Express",
-//       imgSrc: L_EXPRESS,
-//       skillName: "Express",
-//     },
-//     {
-//       link: "https://www.djangoproject.com/",
-//       imgAltText: "Django",
-//       imgSrc: L_DJANGO,
-//       skillName: "Django",
-//     },
-//     {
-//       link: "https://flask.palletsprojects.com/",
-//       imgAltText: "Flask",
-//       imgSrc: L_FLASK,
-//       skillName: "Flask",
-//     },
-//   ],
   hostingPlatforms: [
     {
       link: "https://pages.github.com/",
@@ -102,6 +76,12 @@ export const skills = {
       imgAltText: "JavaScript",
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
+    },
+    {
+      link: "https://jquery.com/",
+      imgAltText: "jQuery",
+      imgSrc: L_JQUERY,
+      skillName: "jQuery"
     }
   ],
   versionControl: [
