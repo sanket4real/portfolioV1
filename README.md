@@ -1,4 +1,4 @@
-### ` check it out hete - ` https://sanketdesai.tech/
+### ` check it out here - ` https://sanketdesai.tech/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
